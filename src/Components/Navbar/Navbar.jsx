@@ -18,12 +18,12 @@ const Navbar = () => {
 
   return (
     <div className="absolute top-[1rem] left-0 w-full z-50">
-      <nav className="py-4">
+      <nav className="py-4 ">
         <div className="container px-4 mx-auto">
           <div className="flex justify-between items-center">
             {/* Brand Name */}
             <div>
-              <a href="#" className="text-[#D84910] text-3xl font-Great">
+              <a href="#" className="text-[#D84910] text-4xl font-Great">
                 Omkar
               </a>
             </div>
@@ -65,14 +65,7 @@ const Navbar = () => {
                   </li>
                 ))}
               </ul>
-              <div className="mt-8">
-                <a
-                  href="#"
-                  className="bg-[#D84910] text-white py-2 px-8 rounded-md shadow-md transition-transform duration-300 hover:bg-[#b2390c] hover:scale-105"
-                >
-                  Sign Up
-                </a>
-              </div>
+            
             </div>
           )}
         </div>
