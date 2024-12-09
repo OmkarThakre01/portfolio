@@ -7,7 +7,7 @@ const Background = () => {
     <div className="relative">
       <div className="absolute inset-0">
         {/* First Image with Responsive margin */}
-        <div className="ml-[40%] sm:ml-[25rem] lg:ml-[50rem] xl:ml-[60rem]">
+        <div className="ml-[40%] sm:ml-[25rem] lg:ml-[30rem] xl:ml-[60rem]">
           <img
             src={img1}
             alt="Decorative background 1"
