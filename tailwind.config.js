@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        DM: ["DM Sans", "sans-serif"],
+        Great : ["Dancing Script", "cursive"]
+      },
       spacing: {
         '112': '28rem',  // Custom values
         '128': '32rem',
