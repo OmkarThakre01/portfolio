@@ -11,7 +11,7 @@ const Hero = () => {
         <h1 className="text-[#6AB5E4] text-2xl sm:text-4xl md:text-3xl lg:text-3xl font-Press leading-tight">
           Hello! I Am Omkar
         </h1>
-        <button className="bg-[#6AB5E4] text-[#000000] py-2 px-4 sm:py-3 sm:px-6 rounded transition duration-300 hover:bg-blue-600">
+        <button className="bg-[#6AB5E4] text-[#000000] py-2 px-4 sm:py-3 sm:px-6 rounded transition duration-300">
           Download Resume
         </button>
       </div>
