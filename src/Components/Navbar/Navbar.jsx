@@ -50,7 +50,7 @@ const Navbar = () => {
 
           {/* Mobile Drawer */}
           {mobileDrawerOpen && (
-            <div className="fixed top-20 left-0 w-full bg-[#141922] text-white p-6 flex flex-col items-center lg:hidden overflow-hidden">
+            <div className="fixed top-20 left-0 w-full bg-[#595ea5] text-white p-6 flex flex-col items-center lg:hidden overflow-hidden">
               <ul className="space-y-6 text-lg">
                 {navItems.map((item, index) => (
                   <li key={index}>
