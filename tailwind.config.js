@@ -8,7 +8,9 @@ export default {
     extend: {
       fontFamily:{
         DM: ["DM Sans", "sans-serif"],
-        Great : ["Dancing Script", "cursive"]
+        Great : ["Dancing Script", "cursive"],
+        Press: ['"Press Start 2P"', 'cursive'],
+        Poppins : ["Poppins", " sans-serif"]
       },
       spacing: {
         '112': '28rem',  // Custom values

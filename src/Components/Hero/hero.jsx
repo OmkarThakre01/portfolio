@@ -4,17 +4,18 @@ import img2 from '../../assets/Man1bg.png';
 
 const Hero = () => {
   return (
-    <div className="absolute flex flex-row items-center justify-center min-h-screen p-4 lg:p-8 space-y-8">
+    <div className="absolute flex flex-col lg:flex-row items-center justify-center min-h-screen p-4 lg:p-8 space-y-8 lg:space-y-0 lg:space-x-8">
+    
       {/* Text Section */}
-      <div className="flex flex-col items-center lg:w-2/3 text-center space-y-4">
-        <h1 className="text-[#6AB5E4] text-4xl font-bold">Hello! I Am Omkar</h1>
-        <button className="bg-[#6AB5E4] text-white py-2 px-4 rounded hover:bg-[#4a93c6] transition">
+      <div className="flex flex-col items-center text-center space-y-4 order-2 lg:order-none lg:w-2/3">
+        <h1 className="text-[#6AB5E4] text-4xl font-Press">Hello! I Am Omkar</h1>
+        <button className="bg-[#6AB5E4] text-[#000000] py-2 px-4 rounded">
           Download Resume
         </button>
       </div>
 
       {/* Image Section */}
-      <div className="relative w-full flex justify-center">
+      <div className="relative w-full flex justify-center order-1 lg:order-none">
         <img
           src={img2}
           alt="Background"
@@ -28,8 +29,8 @@ const Hero = () => {
       </div>
 
       {/* Additional Information */}
-      <div className=" flex flex-col items-center text-center space-y-2">
-        <h2 className="text-[#DF6951] text-xl font-semibold">
+      <div className="flex flex-col items-center text-center space-y-2 order-3 lg:order-none">
+        <h2 className="text-[#DF6951] text-xl font-semibold font-Poppins uppercase">
           I'm excited to showcase my work as a frontend developer and UI designer
         </h2>
         <p className="text-[#B5C7C1] text-lg">
