@@ -9,7 +9,7 @@ const Hero = () => {
       {/* Text Section */}
       <div className="flex flex-col items-center text-center space-y-4 order-2 lg:order-none lg:w-1/2 px-4 sm:px-6 md:px-8 lg:px-0 ml-0 lg:ml-[5rem]">
         <div>
-          <h1 className="text-[#6AB5E4] text-1xl sm:text-4xl md:text-[3rem] lg:text-[3.5rem] font-Press leading-tight">
+          <h1 className="text-[#6AB5E4] text-2xl sm:text-4xl md:text-3xl lg:text-3xl font-Press leading-tight">
             Hello! I Am Omkar
           </h1>
         </div>
@@ -32,16 +32,16 @@ const Hero = () => {
         <img
           src={img1}
           alt="Foreground"
-          className="relative w-[70%] sm:w-[60%] md:w-[50%] lg:w-[60%]"
+          className="relative w-[90%] sm:w-[70%] md:w-[70%] lg:w-[90%]"
         />
       </div>
 
       {/* Additional Information */}
       <div className="flex flex-col items-center text-center space-y-4 order-3 xl:text-left lg:w-[80%] md:w-[70%] lg:px-6 px-4 sm:px-6 md:px-8">
-        <h2 className="text-[#DF6951] text-[0.7rem] sm:text-1xl md:text-3xl lg:text-2xl font-semibold font-Poppins uppercase text-center md:text-left leading-tight">
+        <h2 className="text-[#DF6951] text-[1rem] sm:text-1xl md:text-3xl lg:text-3xl font-semibold font-Poppins uppercase text-center md:text-left leading-tight">
           I'm excited to showcase my work as a frontend developer and UI designer
         </h2>
-        <p className="text-[#B5C7C1] text-sm sm:text-base md:text-lg text-center md:text-left leading-relaxed">
+        <p className="text-[#B5C7C1] text-1xl sm:text-base md:text-lg text-center md:text-left leading-relaxed">
           I'm here to bring your digital ideas to life.
         </p>
       </div>
