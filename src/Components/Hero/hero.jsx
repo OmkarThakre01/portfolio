@@ -35,8 +35,8 @@ const Hero = () => {
       </div>
 
       {/* Additional Information */}
-      <div className="flex flex-col items-start lg:items-start text-center lg:text-left space-y-4 order-3 lg:order-none  px-4 sm:px-6 md:px-8 lg:px-0 ">
-        <h2 className="text-[#DF6951] text-[1rem] sm:text-1xl md:text-3xl lg:text-3xl font-semibold font-Poppins uppercase text-center md:text-left leading-tight lg:mr-40 ">
+      <div className="flex flex-col items-center lg:items-start text-center lg:text-left space-y-4 order-3 lg:order-none  px-4 sm:px-6 md:px-8 lg:px-0 ">
+        <h2 className="text-[#DF6951] text-[1rem] sm:text-lg md:text-3xl lg:text-2xl font-semibold font-Poppins uppercase lg:mr-40 ">
           I'm excited to showcase my work as a frontend developer and UI designer
         </h2>
         <p className="text-[#B5C7C1] text-1xl sm:text-base md:text-lg text-center md:text-left leading-relaxed ">
