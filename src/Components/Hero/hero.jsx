@@ -4,10 +4,10 @@ import img2 from '../../assets/Man1bg.png';
 
 const Hero = () => {
   return (
-    <div className="relative flex flex-col xl:flex-row items-center justify-between min-h-screen p-6 xl:p-12 space-y-4 xl:space-y-0">
+    <div className="relative flex flex-col xl:flex-row items-center justify-between min-h-screen p-6 xl:p-12 space-y-2 xl:space-y-0">
 
       {/* Text Section */}
-      <div className="flex flex-col items-center xl:items-start text-center xl:text-left space-y-4 order-2 xl:order-none xl:w-1/2 px-6 sm:px-8 md:px-12 lg:ml-0 xl:ml-[9rem]">
+      <div className="flex flex-col items-center xl:items-start text-center xl:text-left space-y-2 order-2 xl:order-none xl:w-1/2 px-6 sm:px-8 md:px-12 lg:ml-0 xl:ml-[9rem]">
         <h1 className="text-[#6AB5E4] text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-6xl font-Press leading-tight">
           Hello! I Am Omkar
         </h1>
@@ -33,7 +33,7 @@ const Hero = () => {
       </div>
 
       {/* Additional Information */}
-      <div className="flex flex-col items-center xl:items-start text-center xl:text-left space-y-4 xl:w-[70%] order-3 xl:order-none px-6 sm:px-8 md:px-12">
+      <div className="flex flex-col items-center xl:items-start text-center xl:text-left space-y-2 xl:w-[70%] order-3 xl:order-none px-6 sm:px-8 md:px-12">
         <h2 className="text-[#DF6951] text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-semibold font-Poppins uppercase">
           I'm excited to showcase my work as a frontend developer and UI designer
         </h2>
