@@ -21,17 +21,17 @@ const Icon = () => {
   ];
 
   return (
-    <div className="flex justify-center py-6">
-      <div className="flex flex-wrap gap-6 justify-center absolute top-[44rem] lg:top-[40rem]">
+    <div className="absolute inset-0 flex justify-center items-center mt-[56.5rem] sm:mt-[50rem] md:mt-[52rem] lg:mt-[55rem] xl:mt-[35rem]">
+      <div className="flex flex-wrap gap-5 justify-center">
         {icons.map((icon, index) => (
           <div
             key={index}
-            className="w-16 h-16 sm:w-14 sm:h-14 lg:w-16 lg:h-16 bg-[#251C31] flex items-center justify-center rounded-full shadow-lg hover:scale-105 transition-transform"
+            className="w-16 h-16 sm:w-14 sm:h-14 lg:w-16 lg:h-16 xl:w-20 xl:h-20 bg-[#251C31] flex items-center justify-center rounded-full shadow-lg hover:scale-105 transition-transform"
           >
             <img
               src={icon.src}
               alt={icon.name}
-              className="w-10 h-10 sm:w-8 sm:h-8 lg:w-10 lg:h-10"
+              className="w-10 h-10 sm:w-8 sm:h-8 lg:w-10 lg:h-10 xl:w-12 xl:h-12"
             />
           </div>
         ))}
