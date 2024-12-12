@@ -4,10 +4,10 @@ import img2 from '../../assets/Man1bg.png';
 
 const Hero = () => {
   return (
-    <div className="relative flex flex-col xl:flex-row items-center justify-between min-h-screen p-4 xl:p-16 space-y-8 xl:space-y-0">
+    <div className="relative flex flex-col xl:flex-row items-center justify-between min-h-screen p-4 xl:p-12 space-y-4 xl:space-y-0">
 
       {/* Text Section */}
-      <div className="flex flex-col items-center xl:items-start text-center xl:text-left space-y-8 order-2 xl:order-none xl:w-1/2 px-6  sm:px-8 lg:px-12 xl:px-0 md:px-8 lg:ml-[0rem] xl:ml-[9rem]">
+      <div className="flex flex-col items-center xl:items-start text-center xl:text-left space-y-6 order-2 xl:order-none xl:w-1/2 px-6  sm:px-8 lg:px-12 xl:px-0 md:px-8 lg:ml-[0rem] xl:ml-[9rem]">
         <h1 className="text-[#6AB5E4] text-3xl sm:text-3xl lg:text-3xl xl:text-4xl font-Press leading-tight">
           Hello! I Am Omkar
         </h1>
