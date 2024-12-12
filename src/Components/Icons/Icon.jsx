@@ -21,7 +21,7 @@ const Icon = () => {
   ];
 
   return (
-    <div className="absolute inset-0 flex justify-center items-center mt-[56.5rem] sm:mt-[50rem] md:mt-[52rem] lg:mt-[55rem] xl:mt-[35rem]">
+    <div className="absolute inset-0 flex justify-center items-center mt-[57rem] sm:mt-[50rem] md:mt-[52rem] lg:mt-[55rem] xl:mt-[35rem]">
       <div className="flex flex-wrap gap-5 justify-center">
         {icons.map((icon, index) => (
           <div

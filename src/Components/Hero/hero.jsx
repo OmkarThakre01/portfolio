@@ -36,7 +36,7 @@ const Hero = () => {
      
 
       {/* Additional Information */}
-      <div className="flex flex-col items-center xl:items-start text-center xl:text-left space-y-6 xl:w-[70%] order-3 xl:order-none px-6 sm:px-8 lg:px-12 xl:px-0">
+      <div className="flex flex-col items-center xl:items-start text-center xl:text-left space-y-2 xl:w-[70%] order-3 xl:order-none px-6 sm:px-8 lg:px-12 xl:px-0">
         <h2 className="text-[#DF6951] text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-3xl font-semibold font-Poppins uppercase lg:mr-20">
           I'm excited to showcase my work as a frontend developer and UI designer
         </h2>
