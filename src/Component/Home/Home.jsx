@@ -6,9 +6,9 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="flex items-center justify-center h-screen text-center px-4"
+      className="flex  justify-center h-screen text-center px-4 "
     >
-      <div className="flex flex-col items-center justify-center w-full max-w-4xl text-[#d3a646] text-center">
+      <div className="flex flex-col items-center justify-center  mt-[-5rem] w-full max-w-4xl  text-[#d3a646] text-center">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">
           Hello! I Am <span className="abstract-brush text-[#466cd3] font-Bebas">Omkar</span>
         </h1>
