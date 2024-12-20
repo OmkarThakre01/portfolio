@@ -24,7 +24,7 @@ const Home = () => {
         <p className=" md:text-md text-xl font font-bold text-blue-400 mb-8 w-full sm:w-[90%] md:w-[70%] lg:w-[60%]">
           I'm here to bring your digital ideas to life.
         </p>
-        <button className="bg-[#466cd3] flex items-center justify-center gap-3 text-white px-4 md:px-6 py-2 md:py-3 rounded-sm text-sm md:text-lg font-medium  transition">
+        <button className="bg-[#466cd3] flex items-center justify-center gap-3 text-white px-4 md:px-6 py-4 md:py-3 rounded-sm text-sm md:text-lg font-medium  transition">
           Download Resume <GrDownload className="size-4" />
         </button>
       </div>
