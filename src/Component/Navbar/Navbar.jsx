@@ -32,7 +32,7 @@ const Navbar = () => {
             </div>
 
             {/* Desktop Navigation */}
-            <ul className="hidden lg:flex text-[#4b7e9b] text-base font-Noto font-medium space-x-8 mr-40">
+            <ul className="hidden lg:flex text-[#466cd3] text-base font-Parkinsans font-medium space-x-8 mr-40">
               {navItems.map((item, index) => (
                 <li key={index}>
                   <a href={item.href}>{item.label}</a>
@@ -50,7 +50,7 @@ const Navbar = () => {
 
           {/* Mobile Drawer */}
           {mobileDrawerOpen && (
-            <div className="fixed top-[60px] left-0 w-full bg-[#d6eaff] text-[#4b7e9b] p-6 flex flex-col items-center lg:hidden overflow-hidden"> {/* Adjusted top */}
+            <div className="fixed top-[60px] left-0 w-full bg-[#c8d7ff] text-[#331811] p-6 flex flex-col items-center lg:hidden overflow-hidden"> {/* Adjusted top */}
               <ul className="space-y-6 text-lg">
                 {navItems.map((item, index) => (
                   <li key={index}>

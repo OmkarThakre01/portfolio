@@ -9,6 +9,7 @@ export default {
       fontFamily: {
         Bebas: ['Agu Display', "serif"],
         Noto: ['Noto Sans KR', "serif"],
+        Parkinsans: ['Parkinsans', "serif"],
       },
     },
     
