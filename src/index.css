@@ -1,0 +1,68 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 216 45% 98%;
+    --foreground: 222 47% 11%;
+    
+    --primary: 196 100% 50%;
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 214 32% 91%;
+    --secondary-foreground: 222 47% 11%;
+    
+    --accent: 196 100% 50%;
+    --accent-foreground: 0 0% 100%;
+    
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+    
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    
+    --radius: 0.5rem;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+
+  .container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+}
+
+.hero-gradient {
+  background: linear-gradient(90deg, #f8fafc 0%, #f1f5f9 100%);
+}
+
+.nav-link {
+  @apply relative text-sm font-medium transition-colors hover:text-primary after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-primary after:transition-all hover:after:w-full;
+}
+
+.nav-link.active {
+  @apply text-primary after:w-full;
+}
+
+.btn-primary {
+  @apply bg-primary hover:bg-primary/90 text-white px-6 py-2 rounded transition-colors;
+}
+
+.skill-card {
+  @apply bg-white p-6 rounded-lg shadow-sm text-center transition-all hover:shadow-md;
+}
+
+.project-card {
+  @apply bg-white rounded-lg overflow-hidden shadow-sm transition-all hover:shadow-md;
+}
+
+.article-card {
+  @apply bg-white rounded-lg overflow-hidden shadow-sm transition-all hover:shadow-md;
+}
+
+.testimonial-card {
+  @apply bg-white p-6 rounded-lg shadow-sm transition-all hover:shadow-md;
+}
